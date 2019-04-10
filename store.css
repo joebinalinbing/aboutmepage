@@ -16,37 +16,126 @@ and open the template in the editor.
     color:blue;
 }
 
+
+/*//body {background-color: coral;}sets background color in css*/
+
 #header-id-color-red{
     color:red;
 }
 
+#title2{
+
+
+    text-align: center;
+
+    font-family: sans-serif;
+
+}
 .navbar{
-   
-list-style-type: none;
-margin:0;
-padding:10px;
-background-color:green; 
+
+    list-style-type: none;
+    margin:0;
+    padding:10px;
+    background-color:green; 
 
 }
 .navbar li{
     display: inline;
-    
+
 }
 .centered-container{
     width:80%;
     height: 90vh;
     margin: auto;
     background-color: cornsilk;
-    
-    
-    
+
+
+
 }
+.centered-container1{
+
+
+
+    margin: auto;
+    background-color: chartreuse;
+    position: relative;
+
+    left: 10%;
+
+
+}
+
+.centered-container2{
+
+
+
+    margin: auto;
+    background-color: slategrey;
+    position: relative;
+
+
+    left:10%;
+
+}
+
+.centered-container3{
+
+
+
+    margin: auto;
+    background-color:  darksalmon;
+    position: relative;
+
+    left:10%;
+
+
+
+}
+
+
 .centered-text{
-    
+
     text-align: center;
 }
 
 .sansSerif-text{
-    
+
     font-family: sans-serif;
 }
+
+.open-sign-image{
+    width: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
+    border-radius: 70%;
+
+}
+
+.open-sign2-image{
+   width: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
+    border-radius: 70%;
+    
+
+}
+
+
+
+.content-block{
+    margin: auto;
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    font-size: xx-large;
+    position: relative;
+}
+
+.bordered-text{
+    border-style: solid;
+    border-color: black;
+}
+
+
