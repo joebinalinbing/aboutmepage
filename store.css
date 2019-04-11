@@ -43,11 +43,27 @@ and open the template in the editor.
     display: inline;
 
 }
-.centered-container{
-    width:80%;
+.container{
+    /*   width:80%;
+        height: 90vh;
+        margin: auto;*/
     height: 90vh;
-    margin: auto;
     background-color: cornsilk;
+
+
+
+}
+
+
+.fixed-height-box{
+    /*    
+        Set the height to 75 pixels.
+    Set the border style to solid.
+    Set the border color to black.*/
+
+    height: 75px ;
+    border-style: solid;
+    border-color: black;
 
 
 
@@ -113,12 +129,12 @@ and open the template in the editor.
 }
 
 .open-sign2-image{
-   width: 50%;
+    width: 50%;
     display: block;
     margin: auto;
     position: relative;
     border-radius: 70%;
-    
+
 
 }
 
